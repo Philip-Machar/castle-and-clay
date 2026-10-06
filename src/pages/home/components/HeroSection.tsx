@@ -38,14 +38,15 @@ export default function HeroSection() {
         
         <div className="animate-fade-up">
           <span className="inline-block mb-4 text-xs md:text-sm font-bold tracking-[0.3em] uppercase text-white/80 border border-white/20 px-4 py-1.5 rounded-full backdrop-blur-sm">
-            Welcome to Tajiri Homes and Construction
+            Welcome to Castle & Clay
           </span>
         </div>
 
         {/* Elegant Typography */}
         <h1 className="animate-fade-up-delayed font-heading text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] text-white leading-[1.1] tracking-tight drop-shadow-2xl mb-6 max-w-5xl mx-auto">
           Discover properties that define <br className="hidden md:block" />
-          <span className="italic font-light text-primary-400">luxury living</span>
+          {/* CHANGED: text-primary-400 to text-accent-400 to make it yellow */}
+          <span className="italic font-light text-accent-400">luxury living</span>
         </h1>
 
         <p className="animate-fade-up-delayed-2 text-base md:text-lg text-white max-w-2xl mx-auto leading-relaxed font-light mb-12 drop-shadow-lg">

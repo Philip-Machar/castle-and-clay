@@ -14,7 +14,7 @@ interface SEOProps {
 export default function SEO({ 
   title, 
   description, 
-  name = "Tajiri Homes and Construction", 
+  name = "Castle & Clay", 
   type = "website", 
   image = "/logo.jpg", 
   url = "https://www.Kevlinhomes.com", 

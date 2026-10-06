@@ -16,7 +16,7 @@ export const applyWatermark = (file: File): Promise<File> => {
       // 1. Draw the original uploaded image onto the canvas
       ctx.drawImage(img, 0, 0);
 
-      // 2. Load the Tajiri Homes and Construction logo
+      // 2. Load the Castle & Clay logo
       const logo = new Image();
       // Required to prevent canvas CORS security errors when exporting
       logo.crossOrigin = "anonymous"; 

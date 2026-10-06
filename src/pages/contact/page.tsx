@@ -37,7 +37,7 @@ export default function ContactPage() {
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // Create the WhatsApp link (removing the + sign from the number for the API)
-    const whatsappUrl = `https://wa.me/254726008316?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/254731262000?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
@@ -82,8 +82,8 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { label: 'Call Us', value: '+254 726 008 316', sub: 'Mon-Fri from 8am to 6pm', icon: 'ri-phone-line', href: 'tel:702601384' },
-              { label: 'Email Us', value: 'hello@tajirihomes.com', sub: 'We reply within 24 hours', icon: 'ri-mail-line', href: 'mailto:hello@tajirihomes.com' },
+              { label: 'Call Us', value: '+254 731 262 000', sub: 'Mon-Fri from 8am to 6pm', icon: 'ri-phone-line', href: 'tel:702601384' },
+              { label: 'Email Us', value: 'hello@castleandclay.com', sub: 'We reply within 24 hours', icon: 'ri-mail-line', href: 'mailto:hello@castleandclay.com' },
               { label: 'Visit Us', value: 'Riverside Drive', sub: 'Nairobi, Kenya', icon: 'ri-map-pin-line', href: '#' },
               { label: 'Business Hours', value: 'Mon - Fri: 8:30 AM - 4:30 PM', sub: 'Sat: 9:00 AM - 2:00 PM', icon: 'ri-time-line', href: '#' },
             ].map((info) => (
@@ -278,7 +278,7 @@ export default function ContactPage() {
               {/* Map */}
               <div className="mt-auto rounded-[2.5rem] overflow-hidden border-4 border-white dark:border-card shadow-[0_20px_40px_rgba(0,0,0,0.08)] bg-white h-[320px]">
                 <iframe
-                  title="Tajiri Homes and Construction Location"
+                  title="Castle & Clay Location"
                   src="https://maps.google.com/maps?q=Riverside%20Drive,%20Nairobi&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
@@ -351,10 +351,10 @@ export default function ContactPage() {
                   className="inline-flex items-center gap-3 px-10 py-4 bg-white text-black text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-gray-100 transition-all shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] hover:-translate-y-1"
                 >
                   <i className="ri-phone-line text-lg" />
-                  +254 726 008 316
+                  +254 731 262 000
                 </a>
                 <a
-                  href="mailto:hello@tajirihomes.com"
+                  href="mailto:hello@castleandclay.com"
                   className="inline-flex items-center gap-3 px-10 py-4 bg-white/10 text-white border border-white/20 text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-white/20 transition-all hover:-translate-y-1"
                 >
                   <i className="ri-mail-line text-lg" />

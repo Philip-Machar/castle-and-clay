@@ -54,7 +54,7 @@ export default function PostPage() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Tajiri Homes and Construction",
+      "name": "Castle & Clay",
       "logo": {
         "@type": "ImageObject",
         "url": "/logo.jpg"
@@ -66,7 +66,7 @@ export default function PostPage() {
   return (
     <div className="min-h-screen bg-background-50">
       <SEO 
-        title={`${post.title} | Tajiri Homes and Construction Insights`}
+        title={`${post.title} | Castle & Clay Insights`}
         description={post.excerpt}
         image={post.image}
         type="article"
